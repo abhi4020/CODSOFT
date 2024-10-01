@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhay - Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+<link rel="stylesheet" href="port.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+  
+</head>
+
+<body>
+  <script src="port.js"></script>
+
+  <header>
+    <nav>
+      <div class="left">Abhay's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="">Home </a></li>
+          <li><a href="">Skills </a></li>
+          <li><a href="">Resume</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">About Us </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My name is <span class="purple">Abhay</span>
+        <div>and i am a passionate</div>
+        <span id="element"></span>
+      </div>
+
+      <div class="rightsection">
+        <img src="img/a.jpg" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondsection">
+    <div class="container">
+      <div class="title">
+        <h1>My Skills</h1>
+      </div>
+      <img class="img-icons" src="img/php.png" alt="" />
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%">PHP</div>
+      </div>
+      <br /><br />
+
+      <img class="img-icons" src="img/jss.png" alt="" />
+      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-info text-dark" style="width: 50%">
+          JAVASCRIPT
+        </div>
+      </div>
+
+      <br /><br />
+
+      <img class="img-icons" src="img/cs.png" alt="" />
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">
+          CSS
+        </div>
+      </div>
+
+      <br /><br />
+
+      <img class="img-icons" src="img/ht2.png" alt="" />
+      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+        aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 100%">HTML</div>
+      </div>
+
+      <br /><br />
+    </div>
+
+  </section>
+
+  <hr />
+  <!--resume section-->
+<section class="third-section">
+ <span>
+  Resume
+</span> 
+  
+</section>
+
+
+
+</main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer", "Web Designer"],
+      typeSpeed: 50,
+    });
+</script>
+</body>
+
+</html>
